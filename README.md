@@ -1,1 +1,1 @@
-# fs-moduluyle-veri-islemleri
+paylaşılacak
