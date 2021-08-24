@@ -30,12 +30,13 @@ fs.writeFile('example.json', '{"name": "Arin", "age": 6}', 'utf8', (err) => {
 
 ### Dosyaya Veri Eklemek
 Var olan herhangi bir dosyaya veri eklemek için `fs.appendFile` fonksiyonu kullanılır. Aşağıdaki örneğimizde example.txt dosyamızın
-yeni satırına 'YENI TEXT' stringini ekleyelim.
+yeni satırına 'YENI TEXT' stringini ekleyelim. 
 ```javascript
 fs.appendFile('example.txt', '\n YENI TEXT', 'utf8', (err) => {
     if (err) console.log(err);
 });
 ```
+Örnek Proje: [TIKLA](https://github.com/Jyros/discord-txt-log-bot)
 
 ### Dosyaya Silmek 
 Dosya silmek için `fs.unlink` fonksiyonu kullanılır. Aşağıdaki örneğimizde example.json dosyasını siliyoruz.
