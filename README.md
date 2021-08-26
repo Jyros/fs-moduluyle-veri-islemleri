@@ -1,6 +1,8 @@
 File System Modülü
 ======
 
+* **Örnek Proje:** [TIKLA](https://github.com/Jyros/discord-txt-log-bot)
+
 FS (File System) modülü Node.js'in dosya ve klasör işlemleri yaparken kullandığı bir çekirdek modülüdür. Buradaki çekirdek modülü kavramıyla Node.js yazılımıyla 
 birlikte gelmesidir, tekrar oluşturulmasına gerek yoktur ve kullanıma hazırdır. FS modülünü kullanmak için:
 ```
@@ -36,7 +38,6 @@ fs.appendFile('example.txt', '\n YENI TEXT', 'utf8', (err) => {
     if (err) console.log(err);
 });
 ```
-**Örnek Proje:** [TIKLA](https://github.com/Jyros/discord-txt-log-bot)
 
 ### Dosyaya Silmek 
 Dosya silmek için `fs.unlink` fonksiyonu kullanılır. Aşağıdaki örneğimizde example.json dosyasını siliyoruz.
