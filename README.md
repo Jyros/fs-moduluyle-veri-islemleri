@@ -70,9 +70,16 @@ fs.rmdir('uploads', { recursive: true }, (err) => {
 
 
 
-## Jyross
+### Jyross
 
 Proje ile ilgili herhangi bir sorun ile karşılaştığınızda bana Discord veya Instagram'dan Ulaşabilirsiniz.
+
+## Bana Ulaşabileceğiniz Sunucu:
+
+* https://discord.gg/serendia
+
+* Dilerseniz Serendia Squad'a katılıp sorularınızı sorabilirsiniz.
+
 
 <p align="center">
  <a href="https://discord.com/users/796032235085627422" target"blank_"><img src="https://img.shields.io/badge/Discord%20-7289DA.svg?&style=for-the-badge&logo=discord&logoColor=white"></a>
