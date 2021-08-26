@@ -36,7 +36,7 @@ fs.appendFile('example.txt', '\n YENI TEXT', 'utf8', (err) => {
     if (err) console.log(err);
 });
 ```
-Örnek Proje: [TIKLA](https://github.com/Jyros/discord-txt-log-bot)
+**Örnek Proje:** [TIKLA](https://github.com/Jyros/discord-txt-log-bot)
 
 ### Dosyaya Silmek 
 Dosya silmek için `fs.unlink` fonksiyonu kullanılır. Aşağıdaki örneğimizde example.json dosyasını siliyoruz.
