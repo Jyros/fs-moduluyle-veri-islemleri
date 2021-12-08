@@ -25,9 +25,9 @@ fs.readFile('password.txt', 'utf8', (err, data) => { // callback fonksiyonu ile 
 
 ### Dosya Yazmak
 Dosya oluşturmak ve sonrasında dosyaya verilerin yazılması için `fs.writeFile` fonksiyonu kullanılır. Oluşturulacak dosya formatı da belirtilir.
-Aşağıda örnek olarak bir **JSON** dosyası oluşturacağız ve içerisine `{"name": "Arin", "age": 6}` verisini yazdıracağız.
+Aşağıda örnek olarak bir **JSON** dosyası oluşturacağız ve içerisine `{"name": "Jyross", "age": 18}` verisini yazdıracağız.
 ```javascript
-fs.writeFile('example.json', '{"name": "Arin", "age": 6}', 'utf8', (err) => {
+fs.writeFile('example.json', '{"name": "Jyross", "age": 18}', 'utf8', (err) => {
     if (err) console.log(err);
 });
 ```
